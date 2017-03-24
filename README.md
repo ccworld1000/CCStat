@@ -1,1 +1,1 @@
-# CCStat
+# CCStat [personal]
