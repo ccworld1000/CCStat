@@ -12,5 +12,5 @@ before_install:
 
 script:
  - cd "CCStat.demo"
- - pod install
+ - pod update
  - cd ..
