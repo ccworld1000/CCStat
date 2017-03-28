@@ -101,5 +101,5 @@ CCStat [personal]
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-  s.vendored_libraries = 'CCStat/libCCStat.a'
+  s.vendored_libraries = 'CCStat/*.{a}'
 end
