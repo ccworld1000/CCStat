@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CCStat"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "CCStat [personal]"
   s.description  = <<-DESC
 CCStat [personal]
@@ -58,7 +58,7 @@ CCStat [personal]
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CCStat/*.{h,m}"
+  s.source_files  = "CCStat/*.{h}"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -100,6 +100,6 @@ CCStat [personal]
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency 'BaiduMobStat', '~> 4.4.0'
 
+  s.vendored_libraries = 'CCStat/libCCStat.a'
 end

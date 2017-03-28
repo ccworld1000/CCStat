@@ -2,11 +2,12 @@
 //  CCStat.h
 //  CCStat
 //
-//  Created by dengyouhua on 17/3/24.
+//  Created by dengyouhua on 17/3/28.
 //  Copyright © 2017年 cc | ccworld1000@gmail.com. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+
 
 /**
  *  CCStatType
@@ -75,3 +76,4 @@ typedef NS_ENUM(NSInteger, CCStatType) {
 @property (nonatomic, copy) NSString *sdkType;  // reserved
 
 @end
+
