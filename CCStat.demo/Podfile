@@ -9,6 +9,6 @@ target 'CCStat' do
   #
   #
 
-    pod 'CCStat', path: ".."
+    pod 'CCStat'
 
 end
