@@ -14,3 +14,5 @@ script:
  - cd "CCStat.demo"
  - pod update
  - cd ..
+notifications:
+email: false
