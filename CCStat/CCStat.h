@@ -42,6 +42,10 @@ typedef NS_ENUM(NSInteger, CCStatType) {
      */
     CCStatTypeHSDebug,
     /**
+     *  CCSugar
+     */
+    CCStatTypeCCSugar,
+    /**
      *  End
      */
     CCStatTypeEnd,

@@ -151,7 +151,18 @@
             c.license = CCStatCellMITLicense;
         }
             break;
-            
+        case CCStatTypeCCSugar:
+        {
+            c.type = type;
+            c.name = @"CCSugar";
+            c.appKey = @"6f94a5b940";
+            c.summary = @"CCSugar";
+            c.homepage = CCStatCellHomepage;
+            c.platform = CCStatCell2Platform;
+            c.author = CCStatCellAuthorInfo;
+            c.license = CCStatCellMITLicense;
+        }
+            break;
         default:
             break;
     }

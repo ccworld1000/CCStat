@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CCStat"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "CCStat [personal]"
   s.description  = <<-DESC
 CCStat [personal]
