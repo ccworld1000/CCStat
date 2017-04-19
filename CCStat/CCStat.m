@@ -163,6 +163,18 @@
             c.license = CCStatCellMITLicense;
         }
             break;
+        case CCStatTypeCCRefresh:
+        {
+            c.type = type;
+            c.name = @"CCRefresh";
+            c.appKey = @"c502b3e8a8";
+            c.summary = @"CCRefresh";
+            c.homepage = CCStatCellHomepage;
+            c.platform = CCStatCelliOSPlatform;
+            c.author = CCStatCellAuthorInfo;
+            c.license = CCStatCellMITLicense;
+        }
+            break;
         default:
             break;
     }
