@@ -50,6 +50,10 @@ typedef NS_ENUM(NSInteger, CCStatType) {
      */
     CCStatTypeCCRefresh,
     /**
+     *  CCTALib
+     */
+    CCStatTypeCCTALib,
+    /**
      *  End
      */
     CCStatTypeEnd,

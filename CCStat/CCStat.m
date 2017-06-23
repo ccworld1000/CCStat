@@ -175,6 +175,18 @@
             c.license = CCStatCellMITLicense;
         }
             break;
+        case CCStatTypeCCTALib:
+        {
+            c.type = type;
+            c.name = @"CCTALib";
+            c.appKey = @"209712eca6";
+            c.summary = @"CCTALib : TA-Lib is widely used by trading software developers requiring to perform technical analysis of financial market data";
+            c.homepage = CCStatCellHomepage;
+            c.platform = CCStatCell2Platform;
+            c.author = CCStatCellAuthorInfo;
+            c.license = CCStatCellMITLicense;
+        }
+            break;
         default:
             break;
     }
